@@ -10,8 +10,9 @@ body {
 h1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
-    font-size: 12vw;
+    font-size: 18vw;
     line-height: 1;
+    color: white;
 }
 
 h2 {
@@ -20,25 +21,71 @@ h2 {
     font-size: 8vw;
 }
 
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+}
+
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
+    position: relative;
     width: 100%;
-    padding: 0 10%;
+    padding: 0;
     overflow: hidden;
 }
 
 .brand {
-    width: 70px;
-    margin: 10% 0;
+    display: block;
+    height: 70px;
+    margin: 20px auto;
 }
 
-.cover {
-    overflow: hidden;
+#hero {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    height: 100%;
 }
 
-.cover img {
+#hero img {
+    height.: 100%;
+}
+
+.land {
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    padding: 10% ;
+    background-color: white;
+}
+
+.white {
     width: 100%;
+    background-color: aliceblue;
+}
+
+a.social {
+    color: black;
+}
+
+a.social i {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+@media(min-width:768px) {
+    
+    h1 {
+        font-size: 10vw;
+    }
+    
 }

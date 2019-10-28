@@ -22,19 +22,42 @@
 <body>
     
     <div class="container">
-            <img class="brand" src="img/Letter-press-logo.svg">
+        <img class="brand" src="img/Letter-press-logo-vertical.svg">
 
-        <div class="cover">
-            <img src="img/sample.jpg">
+        <picture id="hero" >
+          <source media="(min-width: 768px)" srcset="img/Front.jpg">
+          <source media="(min-width: 0px)" srcset="img/Front-mobile.jpg">
+          <img src="img/Front.jpg">
+        </picture>
+        
+        <div class="land">
+            <h1>OPEN DESK,<br>CAFE<br>& VENUE</h1>
         </div>
+        
+        <div class="content">
+            
+             <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p>
 
-        <h1>OPEN DESK,<br>CAFE<br>& VENUE</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-        </p>
+            <h2>INQUIRIES</h2>
+            <hr>
+            <h3>SAJAAN:077 7511 666</h3>
+            <hr>
+            <a class="social" href="#" target="_blank" >
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a class="social"  href="#" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+           
 
-        <h2>INQUIRIES</h2>
-    </div> 
+            <div class="footer"></div>
+        </div>
+        
+    </div>
+    
+    <script src="js/letterpress.js"></script>
     
 </body>
 
