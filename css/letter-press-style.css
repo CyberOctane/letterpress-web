@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 12vw;
+    line-height: 1;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 8vw;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.brand {
+    width: 70px;
+    margin: 10% 0;
+}
+
+.cover {
+    overflow: hidden;
+}
+
+.cover img {
+    width: 100%;
+}
